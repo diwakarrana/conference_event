@@ -1,0 +1,139 @@
+body {
+    margin: 50px;
+    background-color: #CCA4EB;
+    border: #64189E solid;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header {
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+
+.logo-nav-container{
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+.nav {
+    width: 100%;
+    background-color: #64189E;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
+}
+img{
+    
+}
+
+.nav a {
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #F7FFAA;
+    display: flex;
+    align-items: center;
+}
+
+.nav a:hover {
+    background-color: #F7FFAA;
+    color: #64189E;
+    transition-duration: 500ms;
+    border-top: black solid;
+    border-left: black solid;
+    border-right: black solid;
+}
+
+.nav a:active {
+    background-color: #64189E;
+    background-color: #CCA4EB;
+    color: #F7FFAA;
+    transition-duration: 500ms;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.main{
+    padding-top: 50px;
+    
+}
+
+.speaker {
+    padding-top: 50px;
+}
+
+.venue {
+    padding-top: 50px;
+}
+
+.schedule {
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: #64189E;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7FFAA;
+
+}
+
+.registration {
+    background-color: #64189E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    padding: 5%;
+}
+
+.registration label {
+    color: #F7FFAA;
+}
+
+.registration input {
+    margin-bottom: 3%;
+}
+
+
+p {
+    word-break: keep-all;
+    word-wrap: initial;
+    word-spacing: 20px;
+    line-height: 45px;
+    font-family: monospace;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+.checkbox {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+    
+
+}
+
+.registration button{
+    width: 100px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
